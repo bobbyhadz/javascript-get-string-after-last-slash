@@ -37,3 +37,12 @@ console.log(afterLastSlash); // 👉️ index.html
 
 // // 👇️ com
 // console.log(afterLastOccurrence('bobby_hadz_com', '_'));
+
+// ------------------------------------------------------------------
+
+// // EXAMPLE 4 - Get the Part after the Last Occurrence in a String using split()
+
+// const str = 'hello/world/index.html';
+
+// const afterLastSlash = str.split('/').pop();
+// console.log(afterLastSlash); // 👉️ index.html
